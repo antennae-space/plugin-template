@@ -1,0 +1,19 @@
+{
+  "Example": "Exemple",
+  "Example entry": "Exemple : entrée",
+  "Example: summary of the project": "Exemple : résumé du projet",
+  "{folders} folders and {files} files at the root of the project": "{folders} dossiers et {files} fichiers à la racine du projet",
+  "Project root": "Racine du projet",
+  "Loading": "Chargement",
+  "Reload in every window": "Recharger dans toutes les fenêtres",
+  "List": "Liste",
+  "Table": "Tableau",
+  "The project is empty": "Le projet est vide",
+  "Entries": "Entrées",
+  "Name": "Nom",
+  "Size": "Taille",
+  "A folder of the project": "Un dossier du projet",
+  "A file of {n} bytes": "Un fichier de {n} octets",
+  "Open the file": "Ouvrir le fichier",
+  "A note, kept with the tab": "Une note, gardée avec l’onglet"
+}

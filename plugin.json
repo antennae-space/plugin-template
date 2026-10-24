@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/antennae-space/plugin-sdk/v1.1.0/plugin.schema.json",
+  "id": "example",
+  "name": "Example",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "ide": ">=1.23.0 <2",
+  "assets": "https://github.com/antennae-space/plugin-template/releases/download/v{version}/example-{arch}.tar.gz",
+  "backend": "bin/example",
+  "permissions": ["files:read", "core:fs.list"],
+  "contributes": {
+    "tools": [{ "id": "example", "label": "Example", "icon": "puzzle", "zone": "right" }],
+    "tabViews": [{ "id": "entry", "label": "Example entry" }],
+    "commands": [{ "id": "summary", "label": "Example: summary of the project", "keys": ["Ctrl+Alt+KeyE"] }],
+    "assistantTools": ["example_summary"],
+    "toolSchemas": {
+      "example_summary": {
+        "description": "Summarizes the root of the open project: how many folders and files, and their total size, as the Example plugin sees them.",
+        "properties": {}
+      }
+    }
+  }
+}
